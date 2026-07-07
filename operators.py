@@ -3,6 +3,7 @@ delivery_charges = 200
 total = product_charges + delivery_charges
 print(total)
 
+#operators
 a = 3
 b = 9
 
@@ -13,3 +14,58 @@ print(a/b)
 print(a//b)
 print(a%b)
 print(a**b)
+
+
+student = 10
+groups = 2
+
+print (student // groups)
+
+
+followers = 100
+followers = followers + 1
+print(followers)
+
+saved_password = "1234abcd"
+entered_password = "1234abcd"
+
+print(saved_password == entered_password)
+
+balance = 2000
+pin_correct = True
+if balance >= 1000 and pin_correct:
+    print("withdraw allowed")
+else:
+    print("failed")
+
+
+num1 = float(input("Enter first number: "))
+num2 = float(input("Enter second number: "))
+
+print("Addition:", num1 + num2)
+print("Subtraction:", num1 - num2)
+print("Multiplication:", num1 * num2)
+print("Power:", num1 ** num2)
+
+#conditional statements
+password = input("enter the password: ")
+if password == "admin123":
+    print("welcome")
+else:
+    print("invalid password")
+
+age = 20
+if age >= 18:
+    print("eligible to vote")
+
+
+marks = int(input("enter your marks:"))
+if marks >= 90:
+    print("9 CGPA")
+elif marks >=80:
+    print("8 CGPA")
+elif marks >=50:
+    print("7 CGPA")
+else:
+    print("fail")
+
